@@ -21,4 +21,11 @@ for root,dirs,files in os.walk(dir):
 	for name in files:
 		if(name.endswith(".csv")):
 			print(str(cnt) +  "./" + name + "," + hashlib.md5(name.encode('utf-8')).hexdigest())
+
+
+
+
+
+
+
 			cnt += 1 				

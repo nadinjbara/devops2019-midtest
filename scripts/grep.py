@@ -2,9 +2,8 @@
 
 import sys
 
-if(len(sys.argv) != 2):
+if(len(sys.argv) != 3):
 	exit(1)
-
 word = sys.argv[1]
 path = sys.argv[2]
 
