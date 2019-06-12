@@ -1,4 +1,0 @@
-
-
-banner "Welcome Nadin"
-
